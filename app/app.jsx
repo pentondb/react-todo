@@ -12,9 +12,9 @@ store.subscribe(() => {
   console.log("New state", store.getState());
 });
 
-store.dispatch(actions.addTodo("Clean the yard"));
-store.dispatch(actions.setSearchText("yard"));
-store.dispatch(actions.toggleShowCompleted());
+// store.dispatch(actions.addTodo("Clean the yard"));
+// store.dispatch(actions.setSearchText("yard"));
+// store.dispatch(actions.toggleShowCompleted());
 
 // Load foundation
 /* Do not need the require lines? after adding the sassLoader entry in webpack.config.js, lecture 8-84 */
