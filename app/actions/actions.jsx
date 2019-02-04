@@ -33,7 +33,7 @@ export var startAddTodo = text => {
     };
 
     var todoRef = firebaseRef.child("todos").push(todo);
-    console.log("todoRef is: ", todoRef);
+    // console.log("todoRef.key is: ", todoRef.key);
     return todoRef.then(() => {
       dispatch(
         addTodo({
